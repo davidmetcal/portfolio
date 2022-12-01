@@ -7,12 +7,6 @@
   left: auto;
   margin: auto;
 
-  //   svg {
-  //     width: 100%;
-  //     height: auto;
-  //     bottom: 0;
-  //   }
-
   .solid-logo {
     position: absolute;
     top: auto;
@@ -23,6 +17,9 @@
     width: 100%;
     opacity: 0;
     z-index: 1;
+    animation: rotateIn 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
   }
 }
 
