@@ -46,7 +46,6 @@ const Home = () => {
     'e',
     'r',
   ]
-
   useEffect(() => {
     setTimeout(() => {
       setLetterClass('text-animate-hover')
